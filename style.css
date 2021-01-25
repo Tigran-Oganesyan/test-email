@@ -152,3 +152,69 @@ body{
     color: #7F7F7F;
 }
 
+
+
+
+
+@media (max-width: 480px) {
+    .logo{
+        width: 480px;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .body{
+        width: 480px;
+    }
+    .main{
+        width: 420px;
+    }
+    .main_info{
+        width: 420px;
+        flex-direction: column;
+    }
+    .product_title{
+        font-size: 12px;
+    }
+    
+    .product_country{
+        font-size: 10px;
+    }
+    
+    .product_text{
+        font-size: 10px;
+    }
+    .footer{
+        width: 420px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    
+
+}
+
+@media (max-width: 375px) {
+    .logo{
+        width: 375px;
+        
+    }
+    .body{
+        width: 375px;
+    }
+    .main{
+        width: 315px;
+    }
+    .main_info{
+        width: 315px;
+    }
+    .info_product{
+        width: 255px;
+    }
+    .footer{
+        width: 315px;
+
+    }
+    
+
+}
