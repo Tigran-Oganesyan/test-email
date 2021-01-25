@@ -1,0 +1,154 @@
+body{
+ width:600px;
+ margin: 0 auto;
+ font-family:Arial, Helvetica, sans-serif;
+ background-color: #FFFFFF;
+ box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* logo*/
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 69px;
+    
+}
+.logo_img{
+    height: 32px;
+    width: 281px;
+    margin-left: 30px;
+}
+
+.logo_link{
+    margin-right: 29px;
+    font-size: 13px;
+    text-decoration: none;
+    color: #8F8F8F;
+}
+
+.gradient{
+    height: 8px;
+    background: linear-gradient(180deg, #FFCC00 -27.5%, #FBFF21 180%);
+}
+
+/* Main*/
+
+.main{
+    width: 540px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_title{
+    font-size: 28px;
+    color: #313131;
+    font-weight: 700;
+}
+
+.main_subtitle{
+    margin-top: 0px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.main_info{
+    margin-top: 40px;
+    width: 540px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0px 0px 20px rgba(143, 143, 143, 0.1);
+    border-radius: 10px;  
+}
+
+.info_img{
+    width: 113px;
+    height: 113px;
+    margin-left: 16px;
+}
+
+.info_product{
+    width: 369px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+}
+
+.product_title{
+    color: #4A4A4A;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.product_country{
+    color: #777777;
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 0px;
+}
+
+.product_text{
+    margin-top: 0px;
+    color: #3E3E3E;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+
+/* Footer */
+
+.footer{
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    background-color: #F4F4F4;
+}
+
+.footer_info{
+    margin-left: 30px;
+    margin-right: 36px;
+}
+
+.info_text{
+    font-size: 12px;
+    color: #7F7F7F;
+}
+
+.text_imp{
+    text-decoration:underline;
+    color: #313131;
+}
+
+.footer_icons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.icon{
+    margin-right: 8.7px;
+}
+
+.app{
+    margin-left: 14.61px;
+}
+
+.footer_texts{
+    display: flex;
+    justify-content:center;
+
+}
+
+.footer_text{
+    margin-left: 30px;
+    font-size: 13px;
+    color: #7F7F7F;
+}
+
